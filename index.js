@@ -4,7 +4,7 @@ const replaceMap = (str, obj = {}) => {
   for (let index = 0; index < keys.length; index += 1) {
     const key = keys[index]
     const replace = obj[key];
-    const regex = new RegExp(key, 'g');
+    const regex = new RegExp(key.replace(/([\[\\\^\$\.\|\?\*\+\(\)])/g, '\\$1'), 'g');
 
     delete obj[key];
 

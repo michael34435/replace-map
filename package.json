@@ -1,16 +1,16 @@
 {
-  "name": "replace-map",
-  "version": "1.0.0",
-  "description": "Replace string with object map with zero dependencies.",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/michael34435/replace-map.git"
-  },
-  "author": "michael34435 <michael34435@capslock.tw>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/michael34435/replace-map/issues"
-  },
-  "homepage": "https://github.com/michael34435/replace-map#readme"
+	"name": "replace-map",
+	"version": "1.0.1",
+	"description": "Replace string with object map with zero dependencies.",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/michael34435/replace-map.git"
+	},
+	"author": "michael34435 <michael34435@capslock.tw>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/michael34435/replace-map/issues"
+	},
+	"homepage": "https://github.com/michael34435/replace-map#readme"
 }
